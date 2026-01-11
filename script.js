@@ -7,7 +7,7 @@ function generateNumber() {
     Math.random() * (valueMax - valueMin + 1) + valueMin
   );
 
-  alert(result);
+  alert(`O número sorteado foi:  ${result}`);
 }
 
 clickButton.addEventListener("click", generateNumber);
