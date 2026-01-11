@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=BBH+Bartle&family=Playpen+Sans:wght@100..800&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Schoolbell", sans-serif;
+  font-weight: 400;
+}
+
+h1 {
+  color: red;
+  font-size: 80px;
+  font-weight: 900;
+  margin-top: 20px;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+body {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.img-dice {
+  width: 300px;
+  margin-top: 20px;
+}
+
+.input-main {
+  display: inline-block;
+  width: 250px;
+  height: 80px;
+  margin: 5px;
+  font-size: 30px;
+  text-align: center;
+  color: dimgray;
+  font-weight: 800;
+  letter-spacing: 3px;
+}
+
+.paragraph-main {
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.button-footer {
+  width: 300px;
+  height: 80px;
+  background-color: #aec346;
+  color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px #32332f;
+  transition: all 0.2s;
+  font-size: 36px;
+  font-weight: 900;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.button-footer:active {
+  box-shadow: 2px 2px 0px #000000;
+  transform: translate(4px, 4px);
+}
+
+/* Para Chrome, Safari, Edge e Opera */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+@media screen and (max-width: 520px) {
+  .img-dice {
+    width: 200px;
+  }
+
+  .div-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  h1 {
+    font-size: 50px;
+  }
+}

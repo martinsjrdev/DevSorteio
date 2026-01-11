@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./script.js" defer></script>
+    <title>Sorteador Entre Dois Números</title>
+  </head>
+  <body>
+    <header>
+      <img src="./assets/Dado.gif" alt="Dado girando" class="img-dice" />
+      <h1>DevSorteio</h1>
+    </header>
+    <main>
+      <p class="paragraph-main">Sortear um número</p>
+      <div class="div-main">
+        <input
+          type="number"
+          class="input-main input-min"
+          placeholder="MIN"
+          onmouseover="this.focus()"
+        />
+        <input
+          type="number"
+          class="input-main input-max"
+          placeholder="MÁX"
+          onmouseover="this.focus()"
+        />
+      </div>
+    </main>
+    <footer>
+      <button class="button-footer">Sortear</button>
+    </footer>
+  </body>
+</html>
